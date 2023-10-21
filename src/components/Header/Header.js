@@ -15,7 +15,7 @@ const Header = (props) => {
         <nav className='navbar navbar-expand navbar-light bg-white py-2  sticky-top'>
             <div className="container">
                 <Link to='/' className='navbar-brand'>
-                    <img src={Logo} alt="Red onion logo" />
+                    <img src={Logo} alt="Tapau logo" />
                 </Link>
 
                 <ul className='navbar-nav align-items-center'>
