@@ -4,8 +4,8 @@ var lunch = [
         "category": "lunch",
         "name": "Healthy Meal Plan",
         "img": "https://i.imgur.com/4ifqEuW.png",
-        "description": "how we dream about our future",
-        "story": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s.",
+        "description": "Nourishing meal plans for you!",
+        "story": "Discover our wholesome and balanced meal plans to nurture your body and mind. A healthier future begins with each bite of our nutritious offerings.",
         "price": 12.99
     },
     {
@@ -13,8 +13,8 @@ var lunch = [
         "category": "lunch",
         "name": "Fried Chicken Beneta",
         "img": "https://i.imgur.com/5fJnbk3.png",
-        "description": "how we dream about our future",
-        "story": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s.",
+        "description": "Crispy fried chicken delight.",
+        "story": "Indulge in the crispy perfection of our Fried Chicken Beneta. Each bite is a journey through flavors and textures that will leave you craving for more.",
         "price": 10.99
     },
     {
@@ -22,8 +22,8 @@ var lunch = [
         "name": "Tarragol Rubble Salmon",
         "category": "lunch",
         "img": "https://i.imgur.com/RsIx4t1.png",
-        "description": "how we dream about our future",
-        "story": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s.",
+        "description": "Savor the taste of the ocean.",
+        "story": "Experience the richness of the ocean with our Tarragol Rubble Salmon. It's a culinary journey that captures the essence of seafood in every bite.",
         "price": 6.99
     },
     {
@@ -31,8 +31,8 @@ var lunch = [
         "name": "Indian Lunch Beneta",
         "category": "lunch",
         "img": "https://i.imgur.com/u0r90tN.png",
-        "description": "how we dream about our future",
-        "story": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s.",
+        "description": "Authentic Indian flavors.",
+        "story": "Transport your taste buds to India with our Indian Lunch Beneta. It's a delightful blend of spices and aromas that will tantalize your senses.",
         "price": 8.99
     },
     {
@@ -40,8 +40,8 @@ var lunch = [
         "name": "Beef Stick Glazed",
         "category": "lunch",
         "img": "https://i.imgur.com/0jxpCAI.png",
-        "description": "how we dream about our future",
-        "story": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s.",
+        "description": "Savory beef perfection.",
+        "story": "Savor the savory goodness of our Beef Stick Glazed. Each bite is a culinary delight that combines the richness of beef with delightful glazing.",
         "price": 12.99
     },
     {
@@ -49,11 +49,10 @@ var lunch = [
         "name": "Honey Soi Glazed",
         "category": "lunch",
         "img": "https://i.imgur.com/CNpakkJ.png",
-        "description": "how we dream about our future",
-        "story": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s.",
+        "description": "Sweet and savory perfection.",
+        "story": "Indulge in the sweet and savory delight of our Honey Soi Glazed. It's a culinary experience that combines the best of flavors for your enjoyment.",
         "price": 9.99
-    },
-
-
+    }
 ]
+
 export default lunch;
