@@ -31,7 +31,7 @@ const Footer = () => {
 
                 <div className='footer-bottom d-flex justify-content-between'>
                     <small className='text-secondary'>Copyright &copy; 2023 Tapau. Proudly created by <span>❤️</span>
-                        <span><a className='text-color' href="https://github.com/XuSog"> Xu Song</a></span>
+                        <span><a className='text-color' href="https://github.com/XuSog">Tapau Team</a></span>
                     </small>
                     <ul className="list-inline">
                         <li className="list-inline-item ml-3"><Link to='/policy'>Privacy Policy</Link></li>

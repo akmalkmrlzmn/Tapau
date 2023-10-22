@@ -27,22 +27,27 @@ const Foods = (props) => {
 
 	return (
 		<section className="food-area my-5">
+			{/* <div className="container">
+				<h2>Special Homemade Food</h2>
+			</div> */}
 			<div className="container">
+				<h2><b>Special Homemade Food</b>  </h2>
+				{/* <div className='empty-line'></div> */}
 				<nav>
-					<ul className="nav justify-content-center">
+					<ul className="nav justify-content-center mt-5">
 						<li className="nav-item" onClick={() => setSelectedFoodType('breakfast')}>
 							<span
 								to="breakfast"
 								className={selectedFoodType === 'breakfast' ? 'active nav-link' : 'nav-link'}
 							>
 								<img src={breakfast} alt="foodIcon" width="45px" className="mr-2" />
-								Breakfast
+								Homemade Breakfast
 							</span>
 						</li>
 						<li className="nav-item" onClick={() => setSelectedFoodType('lunch')}>
 							<span to="lunch" className={selectedFoodType === 'lunch' ? 'active nav-link' : 'nav-link'}>
 								<img src={lunch} alt="foodIcon" width="45px" className="mr-2" />
-								Lunch
+								Homemade Lunch
 							</span>
 						</li>
 						<li className="nav-item" onClick={() => setSelectedFoodType('dinner')}>
@@ -51,14 +56,16 @@ const Foods = (props) => {
 								className={selectedFoodType === 'dinner' ? 'active nav-link' : 'nav-link'}
 							>
 								<img src={dinner} alt="foodIcon" width="45px" className="mr-2" />
-								Dinner
+								Homemade Dinner
 							</span>
 						</li>
 					</ul>
 				</nav>
 
 				<div className="row my-5">{selectedFoods.map((food) => <FoodItem food={food} key={food.id} />)}</div>
-
+			
+				<div className='empty-line'></div> 
+				<h2><b>Popular Restaurant Deal</b></h2>
 				<nav>
 					<ul className="nav justify-content-center mt-5">
 						<li className="nav-item" onClick={() => setSelectedFastFoodType('shawarma')}>
