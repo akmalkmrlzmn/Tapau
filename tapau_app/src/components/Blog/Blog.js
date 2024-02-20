@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Blog.css';
 //import allBlogs from '../../fakeData/blog';
 import BlogItem from '../BlogItem/BlogItem';
-const baseUrl = "http://localhost:5050";
+import {baseUrl} from '../baseUrl.js';
 
 
 const Blog = () => {

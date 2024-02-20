@@ -11,7 +11,7 @@ import sandwich from '../../images/foodicon/sandwich.png';
 import shawarma from '../../images/foodicon/shawarma.png';
 import FoodItem from '../FoodItem/FoodItem';
 import './Foods.css';
-const baseUrl = "http://localhost:5050";
+import {baseUrl} from '../baseUrl.js';
 
 const Foods = (props) => {
 	const [ foods, setFoods ] = useState([]);

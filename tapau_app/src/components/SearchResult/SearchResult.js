@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './SearchResult.css';
 import { useParams, Link } from 'react-router-dom';
 import FoodItem from '../FoodItem/FoodItem';
-const baseUrl = "http://localhost:5050";
+import {baseUrl} from '../baseUrl.js';
 
 const SearchResult = () => {
     const [ foods, setFoods ] = useState([]);
